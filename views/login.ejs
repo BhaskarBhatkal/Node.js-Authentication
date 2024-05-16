@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body style="background-color: rgb(18, 18, 18);color: aliceblue;">
+
+    <div class="form-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="name">Username</label>
+                <input type="text" name="username" placeholder="Username" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <p style="font-weight: bold; display: flex;">Don't have an account? <a class="link" href="/"
+                style="display: flex; margin-left: 43px;">Create
+                account</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
